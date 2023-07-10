@@ -1,0 +1,41 @@
+/* CSS for Tic-Tac-Toe component */
+
+.text-center {
+  text-align: center;
+  color: #ff0000;
+}
+
+table {
+  background-color: aqua;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+td:hover {
+  background-color: #f2f2f2;
+}
+
+td.X {
+  color: #ff0000; /* Red */
+}
+
+td.O {
+  color: #0000ff; /* Blue */
+}
+
+td.winner {
+  background-color: #ffcc00; /* Orange */
+}
+
